@@ -4,8 +4,47 @@ body{
 }
 .container{
     margin: 200px;
+    background-color: #8F1D2C;
+    padding: 70px;
 }
 .header{
     margin-left: 200px;
     margin-right: 200px;
+    background-color: #8F1D2C;
+    padding: 5px;
+}
+.standup{
+    background-color: #140A25;
+    width: 400px;
+    float: left;
+    padding: 20px;
+    
+}
+.lightningtalk{
+    background-color: #140A25;
+    width: 400px;
+    margin-left: 580px;
+    padding: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-left: 30px;
+    padding: 5px;
+}
+.links{
+    margin-left: 600px;
+position: relative;
+bottom: 75px;
+  
+}
+
+h1{
+    padding-left: 70px;
+}
+h2{
+    padding-left: 70px;
 }

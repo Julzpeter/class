@@ -1,0 +1,11 @@
+body{
+    background-color: #140A25;
+    color: white;
+}
+.container{
+    margin: 200px;
+}
+.header{
+    margin-left: 200px;
+    margin-right: 200px;
+}

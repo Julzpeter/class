@@ -1,23 +1,33 @@
 body{
     background-color: #140A25;
     color: white;
+
 }
 .container{
-    margin: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    margin-top: 50px;
     background-color: #8F1D2C;
     padding: 70px;
+    border:1px solid white;
 }
 .header{
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 40px;
     background-color: #8F1D2C;
     padding: 5px;
+    border: 1px solid white;
+    
 }
 .standup{
     background-color: #140A25;
     width: 400px;
     float: left;
     padding: 20px;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
     
 }
 .lightningtalk{
@@ -25,7 +35,8 @@ body{
     width: 400px;
     margin-left: 580px;
     padding: 20px;
-    
+    border-right:2px solid white;
+    border-bottom: 2px solid white;
 }
 
 a{
@@ -48,3 +59,30 @@ h1{
 h2{
     padding-left: 70px;
 }
+
+
+    
+}
+#two{
+    style: width:100px;height:100px;
+    position: fixed;
+    top: 200px;
+    opacity: .5;
+}
+#three{
+    style: width:200px;height:200px;
+    position: relative;
+    right: 340px;
+    top: 220px;
+    -webkit-filter: invert(400%); 
+  filter: invert(400%);
+}
+#four{
+    style: width:200px;height:200px;
+    position: relative;
+    left: 20px;
+    top: -45px;
+    -webkit-filter: invert(400%); 
+  filter: invert(400%);
+}
+
